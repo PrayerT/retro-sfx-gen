@@ -1,0 +1,7 @@
+out/
+preview_batch/
+*.wav
+!examples/*.wav
+__pycache__/
+*.pyc
+.DS_Store
