@@ -1,5 +1,8 @@
 # retro-sfx-gen
 
+🔊 **[▶ Play & download 20 free sound effects in your browser →](https://prayert.github.io/retro-sfx-gen/)**
+&nbsp;|&nbsp; Full 240-pack on [itch.io ($3)](https://bitbleep.itch.io/retro-sfx-pack-01) · [爱发电 (¥19)](https://ifdian.net/item/83f15ada77b311f1ab8552540025c377)
+
 **A pure-Python, zero-dependency procedural synthesizer for retro / chiptune-style
 game sound effects.** No recordings, no sample libraries, no third-party
 packages — every sound is generated from scratch with plain math (oscillators,
