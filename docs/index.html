@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Retro / 8-bit Game Sound Effects — 20 free WAVs (play &amp; download)</title>
+<meta name="description" content="Play and download 20 free retro / 8-bit game sound effects (WAV): coin, laser, jump, explosion, power-up, UI and more. Commercial-use license. Full 240-sound pack available. Open-source MIT generator.">
+<meta name="keywords" content="free game sound effects, retro sound effects, 8-bit sfx, chiptune sound effects, wav sound effects free download, coin sound, laser sound, jump sound, game audio, indie game assets">
+<link rel="canonical" href="https://prayert.github.io/retro-sfx-gen/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Free Retro / 8-bit Game Sound Effects — play &amp; download">
+<meta property="og:description" content="20 free retro game SFX to play in your browser and download (WAV, commercial use). Full 240-pack + open-source generator.">
+<meta property="og:url" content="https://prayert.github.io/retro-sfx-gen/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Retro / 8-bit Game Sound Effects">
+<meta name="twitter:description" content="20 free retro game SFX — play in your browser, download WAV, commercial use.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Retro SFX Pack 01 — 240 8-bit game sound effects",
+  "description": "240 procedurally generated retro / 8-bit game sound effects (WAV, 44.1kHz/16-bit). 20 free samples playable in the browser. Commercial-use license.",
+  "brand": {"@type": "Brand", "name": "BitBleep"},
+  "offers": [
+    {"@type": "Offer", "price": "3.00", "priceCurrency": "USD", "url": "https://bitbleep.itch.io/retro-sfx-pack-01", "availability": "https://schema.org/InStock"}
+  ]
+}
+</script>
+<style>
+  :root{
+    --bg:#0a0e1a; --bg2:#0f1830; --panel:#141d38; --panel2:#1a2647;
+    --text:#eaf1ff; --muted:#9fb3d9; --line:#26355c;
+    --neon:#38f0c8; --neon2:#5aa0ff; --pink:#ff5c8a; --gold:#ffd166;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:radial-gradient(1200px 600px at 50% -10%, #16234a 0%, var(--bg) 60%);
+    color:var(--text); font-family:"Trebuchet MS",Verdana,-apple-system,Segoe UI,Roboto,sans-serif;
+    line-height:1.55; -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--neon2); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:960px; margin:0 auto; padding:0 20px}
+  header{padding:56px 20px 20px; text-align:center}
+  .badge{display:inline-block; font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--neon); border:1px solid var(--line); border-radius:999px; padding:6px 14px; margin-bottom:18px}
+  h1{font-size:clamp(28px,5vw,46px); margin:.1em 0 .3em; line-height:1.12}
+  h1 .hl{color:var(--neon)}
+  .sub{color:var(--muted); font-size:clamp(15px,2.4vw,19px); max-width:640px; margin:0 auto 22px}
+  .cta-row{display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:10px}
+  .btn{display:inline-flex; align-items:center; gap:8px; font-weight:bold; font-size:15px;
+    padding:12px 20px; border-radius:12px; border:1px solid transparent; cursor:pointer}
+  .btn-primary{background:linear-gradient(135deg,var(--neon),#26c9a6); color:#04231c}
+  .btn-primary:hover{filter:brightness(1.08); text-decoration:none}
+  .btn-ghost{background:var(--panel); color:var(--text); border-color:var(--line)}
+  .btn-ghost:hover{background:var(--panel2); text-decoration:none}
+  .hint{color:var(--muted); font-size:13px; margin-top:12px}
+  section{padding:36px 0}
+  h2{font-size:clamp(21px,3.4vw,28px); margin:0 0 6px}
+  .lead{color:var(--muted); margin:0 0 22px}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:12px}
+  .snd{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 14px;
+    text-align:center; cursor:pointer; transition:transform .08s ease, border-color .15s, background .15s; user-select:none}
+  .snd:hover{background:var(--panel2); border-color:var(--neon2); transform:translateY(-2px)}
+  .snd.playing{border-color:var(--neon); box-shadow:0 0 0 1px var(--neon), 0 8px 26px rgba(56,240,200,.18)}
+  .snd .ico{font-size:30px; line-height:1; display:block; margin-bottom:8px}
+  .snd .nm{font-weight:bold; font-size:14px}
+  .snd .cat{color:var(--muted); font-size:11.5px; letter-spacing:.03em; text-transform:uppercase; margin-top:2px}
+  .snd .bar{height:3px; border-radius:3px; background:var(--line); margin-top:10px; overflow:hidden}
+  .snd .bar > i{display:block; height:100%; width:0; background:var(--neon); transition:width .05s linear}
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:22px}
+  .card h3{margin:0 0 6px; font-size:19px}
+  .price{font-size:30px; font-weight:bold; margin:6px 0 2px}
+  .price small{font-size:14px; color:var(--muted); font-weight:normal}
+  .card ul{margin:12px 0 16px; padding-left:18px; color:var(--muted); font-size:14px}
+  .card.free{border-color:#2c4a44}
+  .card.feat{border-color:var(--neon); box-shadow:0 10px 40px rgba(56,240,200,.10)}
+  .tag{display:inline-block; font-size:11px; text-transform:uppercase; letter-spacing:.1em;
+    color:var(--neon); border:1px solid var(--line); border-radius:999px; padding:3px 10px; margin-bottom:10px}
+  .feats{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; margin-top:8px}
+  .feat-i{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px}
+  .feat-i b{color:var(--text)}
+  .feat-i p{margin:4px 0 0; color:var(--muted); font-size:14px}
+  .disc{background:var(--panel); border:1px dashed var(--line); border-radius:14px; padding:18px; color:var(--muted); font-size:13.5px}
+  footer{border-top:1px solid var(--line); margin-top:20px; padding:26px 0 60px; color:var(--muted); font-size:13.5px; text-align:center}
+  footer a{color:var(--muted)}
+  .kbd{font-family:ui-monospace,Menlo,Consolas,monospace; background:var(--panel2); border:1px solid var(--line); border-radius:6px; padding:1px 6px; font-size:12.5px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="badge">240 sounds · WAV · commercial-use</span>
+    <h1>Free <span class="hl">retro / 8-bit</span> game sound effects</h1>
+    <p class="sub">Click any tile to play. 20 free samples you can download and drop straight into your game — coin, laser, jump, explosion, power-up, UI and more.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://bitbleep.itch.io/retro-sfx-teaser" rel="noopener">⬇ Download 20 free (itch.io)</a>
+      <a class="btn btn-ghost" href="#pack">Get all 240 →</a>
+    </div>
+    <div class="hint">No signup to preview. Tap a tile below to hear it.</div>
+  </div>
+</header>
+
+<section id="play">
+  <div class="wrap">
+    <h2>🔊 Play the free samples</h2>
+    <p class="lead">All previews are the real, unmodified WAV files from the free pack.</p>
+    <div class="grid" id="board" aria-label="Sound preview board"></div>
+  </div>
+</section>
+
+<section id="pack">
+  <div class="wrap">
+    <h2>Grab the full pack</h2>
+    <p class="lead">240 sounds · 16 categories × 15 variants · 44.1kHz / 16-bit WAV · loudness-normalized, de-clicked, QC-reported.</p>
+    <div class="cards">
+      <div class="card free">
+        <span class="tag">Free</span>
+        <h3>Teaser — 20 sounds</h3>
+        <div class="price">$0</div>
+        <ul>
+          <li>20 ready-to-use WAVs</li>
+          <li>Try before you buy</li>
+          <li>Same quality as the full pack</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://bitbleep.itch.io/retro-sfx-teaser" rel="noopener">Download free</a>
+      </div>
+      <div class="card feat">
+        <span class="tag">Best value</span>
+        <h3>Retro SFX Pack 01 — 240 sounds</h3>
+        <div class="price">$3 <small>on itch.io</small></div>
+        <ul>
+          <li>All 16 categories, 15 variants each</li>
+          <li>Unified loudness, no clipping, QC report</li>
+          <li>Commercial-use license · edit freely</li>
+        </ul>
+        <a class="btn btn-primary" href="https://bitbleep.itch.io/retro-sfx-pack-01" rel="noopener">Buy on itch.io ($3)</a>
+        <div class="hint">In China? Buy on 爱发电 for ¥19 → <a href="https://ifdian.net/item/83f15ada77b311f1ab8552540025c377" rel="noopener">afdian</a></div>
+      </div>
+      <div class="card">
+        <span class="tag">Also</span>
+        <h3>UI / Menu SFX Pack</h3>
+        <div class="price">$4 <small>240 UI sounds</small></div>
+        <ul>
+          <li>Clicks, hovers, toggles, confirms</li>
+          <li>Notifications, transitions, errors</li>
+          <li>Perfect for menus &amp; apps</li>
+        </ul>
+        <a class="btn btn-ghost" href="https://bitbleep.itch.io/ui-sfx-pack-01" rel="noopener">View UI pack</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <h2>Why these sounds</h2>
+    <div class="feats">
+      <div class="feat-i"><b>Drop-in ready</b><p>Every file is loudness-normalized (0.90 peak), de-clicked with fade in/out, and DC-offset-free. No cleanup needed.</p></div>
+      <div class="feat-i"><b>Organized &amp; named</b><p>Foldered by category, named <span class="kbd">category_NN.wav</span>. Find the right sound in seconds.</p></div>
+      <div class="feat-i"><b>Commercial use</b><p>Use in commercial &amp; non-commercial games, apps, video. Edit freely. Don't resell the sounds themselves.</p></div>
+      <div class="feat-i"><b>Open-source generator</b><p>Made these with a zero-dependency Python synth. Want to roll your own? It's MIT-licensed.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="diy">
+  <div class="wrap">
+    <div class="card">
+      <span class="tag">For tinkerers</span>
+      <h3>Generate your own — free &amp; open source</h3>
+      <p class="lead" style="margin-bottom:14px">A single-file, zero-dependency Python synthesizer. Oscillators, envelopes, filtered noise → deterministic WAV output. 16 categories.</p>
+      <a class="btn btn-ghost" href="https://github.com/PrayerT/retro-sfx-gen" rel="noopener">★ retro-sfx-gen on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="disclosure">
+  <div class="wrap">
+    <div class="disc">
+      <b>How these are made (honest disclosure):</b> every sound is <b>deterministically synthesized</b> in code (oscillators, envelopes, filtered noise — classic DSP). They are <b>not recordings, not sample libraries, and not neural-network generated</b>. The synthesis program was written with AI assistance and is open-sourced under MIT. Buying the pack just saves you the work of generating, naming, normalizing and QC-ing 240 files.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Made by <a href="https://bitbleep.itch.io" rel="noopener">BitBleep</a> ·
+      <a href="https://bitbleep.itch.io/retro-sfx-pack-01" rel="noopener">itch.io store</a> ·
+      <a href="https://github.com/PrayerT/retro-sfx-gen" rel="noopener">GitHub</a> ·
+      <a href="https://ifdian.net/a/bitbleep" rel="noopener">爱发电</a>
+    </p>
+    <p>Free samples are CC-friendly previews of a commercial pack. © 2026 BitBleep.</p>
+  </div>
+</footer>
+
+<script>
+  var SOUNDS = [
+    {f:"coin_01",     nm:"Coin",       cat:"Pickup",   ico:"🪙"},
+    {f:"coin_09",     nm:"Coin 2",     cat:"Pickup",   ico:"🪙"},
+    {f:"laser_02",    nm:"Laser",      cat:"Weapon",   ico:"🔫"},
+    {f:"laser_12",    nm:"Laser 2",    cat:"Weapon",   ico:"⚡"},
+    {f:"explosion_03",nm:"Explosion",  cat:"Impact",   ico:"💥"},
+    {f:"explosion_11",nm:"Blast",      cat:"Impact",   ico:"🧨"},
+    {f:"jump_04",     nm:"Jump",       cat:"Movement", ico:"⬆️"},
+    {f:"land_10",     nm:"Land",       cat:"Movement", ico:"🛬"},
+    {f:"powerup_05",  nm:"Power-up",   cat:"Buff",     ico:"✨"},
+    {f:"powerup_13",  nm:"Power-up 2", cat:"Buff",     ico:"🌟"},
+    {f:"pickup_06",   nm:"Pickup",     cat:"Pickup",   ico:"🎁"},
+    {f:"shield_04",   nm:"Shield",     cat:"Defense",  ico:"🛡️"},
+    {f:"hit_07",      nm:"Hit",        cat:"Impact",   ico:"👊"},
+    {f:"teleport_08", nm:"Teleport",   cat:"Magic",    ico:"🌀"},
+    {f:"door_03",     nm:"Door",       cat:"World",    ico:"🚪"},
+    {f:"engine_05",   nm:"Engine",     cat:"Vehicle",  ico:"🚗"},
+    {f:"whoosh_07",   nm:"Whoosh",     cat:"Movement", ico:"💨"},
+    {f:"alarm_04",    nm:"Alarm",      cat:"Alert",    ico:"🚨"},
+    {f:"blip_02",     nm:"Blip",       cat:"UI",       ico:"🔹"},
+    {f:"ui_click_02", nm:"UI Click",   cat:"UI",       ico:"🖱️"}
+  ];
+  var board = document.getElementById("board");
+  var current = null;
+  SOUNDS.forEach(function(s){
+    var el = document.createElement("div");
+    el.className = "snd";
+    el.setAttribute("role","button");
+    el.setAttribute("tabindex","0");
+    el.setAttribute("aria-label","Play " + s.nm);
+    el.innerHTML = '<span class="ico">'+s.ico+'</span><div class="nm">'+s.nm+'</div><div class="cat">'+s.cat+'</div><div class="bar"><i></i></div>';
+    var audio = new Audio("sfx/" + s.f + ".wav");
+    audio.preload = "none";
+    var fill = el.querySelector(".bar > i");
+    audio.addEventListener("timeupdate", function(){
+      if(audio.duration){ fill.style.width = (100*audio.currentTime/audio.duration) + "%"; }
+    });
+    audio.addEventListener("ended", function(){ el.classList.remove("playing"); fill.style.width="0"; });
+    function play(){
+      if(current && current !== audio){ current.pause(); current.currentTime = 0; }
+      document.querySelectorAll(".snd.playing").forEach(function(n){ n.classList.remove("playing"); });
+      audio.currentTime = 0;
+      audio.play().then(function(){ el.classList.add("playing"); current = audio; }).catch(function(){});
+    }
+    el.addEventListener("click", play);
+    el.addEventListener("keydown", function(e){ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); play(); } });
+    board.appendChild(el);
+  });
+</script>
+</body>
+</html>
