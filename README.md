@@ -1,7 +1,7 @@
 # retro-sfx-gen
 
 🔊 **[▶ Play & download 20 free sound effects in your browser →](https://prayert.github.io/retro-sfx-gen/)**
-&nbsp;|&nbsp; Full 240-pack on [itch.io ($3)](https://bitbleep.itch.io/retro-sfx-pack-01) · [爱发电 (¥19)](https://ifdian.net/item/83f15ada77b311f1ab8552540025c377)
+&nbsp;|&nbsp; Full 240-pack on [Gumroad ($3)](https://prayerful671.gumroad.com/l/retro-sfx-pack-01?utm_source=github&utm_medium=readme&utm_campaign=retro_sfx_pack_01) · [itch.io ($3)](https://bitbleep.itch.io/retro-sfx-pack-01) · [爱发电 (¥19)](https://ifdian.net/item/83f15ada77b311f1ab8552540025c377)
 
 **A pure-Python, zero-dependency procedural synthesizer for retro / chiptune-style
 game sound effects.** No recordings, no sample libraries, no third-party
@@ -94,13 +94,18 @@ make games.
 
 ## Prefer a ready-to-use pack?
 
-240 organized & QC'd sounds on itch: https://bitbleep.itch.io/retro-sfx-pack-01
+240 organized & QC'd sounds: [Gumroad ($3)](https://prayerful671.gumroad.com/l/retro-sfx-pack-01?utm_source=github&utm_medium=readme&utm_campaign=retro_sfx_pack_01) or [itch.io ($3)](https://bitbleep.itch.io/retro-sfx-pack-01).
 (free 20-sound teaser: https://bitbleep.itch.io/retro-sfx-teaser)
 
-The itch pack is a convenience product — the full 16 × 15 = 240 files, sorted
+The pack is a convenience product — the full 16 × 15 = 240 files, sorted
 one folder per category, each one already run through `qc.py`, zipped and ready
 to drop into a project. Same code, no setup. Grabbing it is a nice way to
 support the project if the generator saved you time.
+
+The Gumroad download also includes an offline, searchable sound browser: extract
+the ZIP and open `SOUND_BROWSER.html`. This is the same Pack 01 audio, not a new
+sound collection; existing owners do not need to buy it again. Prices are listed
+in USD; checkout may display your local currency and applicable taxes.
 
 ## Contributing
 
